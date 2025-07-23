@@ -32,7 +32,8 @@ the following command:
 make upload
 ```
 
-Make sure to update the pins for your specific board in `upload_bitstream.py`. 
+Make sure to update the pins for your specific board in `upload_bitstream.py`
+and the path to your bitstream in `config.json`. 
 
 > [!NOTE] 
 > The code was only tested using the mentioned ESP32 WROOM module. While it
