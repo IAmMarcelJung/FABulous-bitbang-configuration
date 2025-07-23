@@ -4,7 +4,15 @@ import os
 import ujson
 
 
-def file_exists(path):
+def file_exists(path: str) -> bool:
+    """Check if a given file exists.
+
+
+    Parameters
+    ----------
+    path : str
+        The path to the file.
+    """
     try:
         os.stat(path)
         return True
