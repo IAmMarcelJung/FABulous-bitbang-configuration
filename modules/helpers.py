@@ -20,13 +20,13 @@ def file_exists(path: str) -> bool:
         return False
 
 
-def load_config(config_file: str):
-    """Load a JSON configuration file
+def load_config(config_file: str) -> Any:
+    """Load a JSON configuration file.
 
 
     Parameters
     ----------
-    conig_file : str
+    config_file : str
         The path to the configuration file.
     """
     with open(config_file) as f:
