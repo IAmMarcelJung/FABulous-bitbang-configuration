@@ -1,3 +1,5 @@
 {
   "bitstream_file": "bitstream.bin",
+  "fpga_sclk": 17,
+  "fpga_sdata": 18,
 }
