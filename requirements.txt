@@ -1,3 +1,4 @@
+loguru==0.7.3
 mpremote==1.25.0
 mpy_cross==1.25.0.post2
 pyserial==3.5
